@@ -3,7 +3,7 @@ const maxTimeDifference = 2;
 var resourceName = 'pmms';
 var isRDR = true;
 var audioVisualizations = {};
-var currentServerEndpoint = '127.0.0.1:30120';
+var currentServerEndpoint = '127.0.0.1:30110';
 
 function sendMessage(name, params) {
 	return fetch(`https://${resourceName}/${name}`, {
